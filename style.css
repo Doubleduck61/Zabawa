@@ -1,0 +1,113 @@
+#one img {
+	margin:85px 0 0 385px;
+	width: 230px;
+	height: 144px;
+	border-radius: 25%;
+	position: absolute;
+	z-index:-1;
+}
+#two img {
+	margin:85px 0 0 630px;
+	width: 230px;
+	height: 144px;
+	border-radius: 25%;
+	position: absolute;
+	z-index:-1;
+}
+#three img {
+	margin:85px 0 0 875px;
+	width: 230px;
+	height: 144px;
+	border-radius: 25%;
+	position: absolute;
+	z-index:-1;
+}
+#four img {
+	margin:240px 0 0 385px;
+	width: 230px;
+	height: 144px;
+	border-radius: 25%;
+	position: absolute;
+	z-index:-1;
+}
+#five img {
+	margin:240px 0 0 630px;
+	width: 230px;
+	height: 144px;
+	border-radius: 25%;
+	position: absolute;
+	z-index:-1;
+}
+#six img {
+	margin:240px 0 0 875px;
+	width: 230px;
+	height: 144px;
+	border-radius: 25%;
+	position: absolute;
+	z-index:-1;
+}
+#seven img {
+	margin:400px 0 0 385px;
+	width: 230px;
+	height: 144px;
+	border-radius: 25%;
+	position: absolute;
+	z-index:-1;
+}
+#eight img {
+	margin:400px 0 0 630px;
+	width: 230px;
+	height: 144px;
+	border-radius: 25%;
+	position: absolute;
+	z-index:-1;
+}
+#nine img {
+	margin:400px 0 0 875px;
+	width: 230px;
+	height: 144px;
+	border-radius: 25%;
+	position: absolute;
+	z-index:-1;
+}
+table {
+	margin: 5% 25%;
+	position: absolute;
+}
+table, tr, td {
+	border: 2px solid white;
+}
+tr {
+	width: 250px;
+	height: 150px;
+	-webkit-transition: all 1s ease;
+	transition: all 1s ease;
+}
+td {
+	background-color: lightgreen;
+	width: 250px;
+	height: 150px;
+	-webkit-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+	z-index:2;
+}
+
+td:hover {
+	background-color: green;
+	width: 250px;
+	height: 150px;
+	border: 2px solid red;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+td:active {
+	width: 250px;
+	height: 150px;
+	border: 2px solid blue;
+	opacity: 0;
+	-webkit-transition: all 0.8s ease;
+	transition: all 0.8s ease;
+}
+#jeden img:hover {
+	border: 1px solid red;
+}
